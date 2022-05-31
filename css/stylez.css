@@ -2,8 +2,12 @@
     background-color: green;
 }
 #header{
+    width: 100%;
+    height: 10%;
     background-color: blue;
 }
 #sidebar {
+    width: 20%;
+    height: 90%;
     background-color: blueviolet;
 }
