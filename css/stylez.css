@@ -7,11 +7,13 @@
     background-color: blue;
 }
 #sidebar {
+    float: left;
     width: 20%;
     height: 100%;
     background-color: blueviolet;
 }
 #mainpage {
+    float: right;
     width: 80%;
     height: 100%;
     background-color: lightblue;
