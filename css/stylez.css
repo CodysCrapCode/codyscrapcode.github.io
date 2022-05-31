@@ -2,6 +2,7 @@ body {
     background-color: rgba(37, 113, 157, 0.615);
 }
 .containerHeader{
+    display: flex;
     flex-direction: row;
     width: 100%;
     height: 25%;
@@ -14,6 +15,7 @@ body {
 }
 .containerSidebar {
     float: left;
+    display: flex;
     flex-direction: column;
     width: 20%;
     height: 100%;
@@ -24,8 +26,9 @@ body {
     height: 20%;
     background-color: lightslategray;
 }
-#mainpage {
+.containerMainpage {
     float: right;
+    display: flex;
     flex-direction: column;
     width: 80%;
     height: 100%;
